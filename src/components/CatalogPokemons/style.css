@@ -1,0 +1,87 @@
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#contentCards {
+  width: 66%;
+  margin-left: 7%;
+  margin-top: 20px;
+}
+
+.rowCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #262626;
+  width: 15%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.card h5 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#buttonsNavigate {
+  width: 56%;
+  margin-left: 7%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#buttonsNavigate button {
+  color: white;
+  font-size: 20px;
+  background-color: #262626;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+}
+
+#buyCar {
+  margin-top: 20px;
+  width: 17%;
+  height: auto;
+}
+
+#buyCar h3 {
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+  background-color: #262626; 
+}
+
+#buyCar h5 {
+  margin-top: 3px;
+  font-size: 20px; 
+}
+
+#buyCar button {
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: #262626;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0;
+}
